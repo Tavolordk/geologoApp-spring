@@ -1,0 +1,167 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.principal {
+    height: 1244px;
+    background: url('../img/774373\ 1.png') no-repeat;
+    padding-top: 5%;
+}
+
+.secundario {
+    width: 512px;
+    height: 835px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #0E457E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logo-nasa {
+    width: 171px;
+    height: 161px;
+    flex-shrink: 0;
+    background: url('../img/LOGO\ NASA\ 2.png');
+}
+
+.seleccion-login-sign {
+    width: 100%;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #D9D9D9;
+}
+
+.sign-in {
+    width: 170px;
+    height: 77px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #0E457E;
+}
+
+.bg-navbar-img {
+    background: url('../img/pexels-nicolas-diaz-14346733\ \(2\)\ 1.png'), lightgray 50% / cover no-repeat;
+    height: 252px;
+    flex-shrink: 0;
+}
+
+.bg-blog-container {
+    border-radius: 50px;
+    background: rgba(217, 217, 217, 0.35);
+    height: 600px;
+}
+
+.bg-footer-img {
+    height: 464px;
+    flex-shrink: 0;
+    background: url('../img/footer-dos-rocoso.jpeg'), rgb(228, 214, 214) 50.869px -473.569px / 98.553% 381.402% no-repeat;
+}
+.text-justify{
+    text-align: justify;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+.p-personalizado{
+    padding-right: 28%;
+    padding-top: 8%;
+}
+.btn-movil i{
+    display: none;
+}
+
+#container {
+    max-width: 550px;  
+  }
+  
+      .step-container {
+        position: relative;
+        text-align: center;
+        transform: translateY(-43%);
+      }
+  
+      .step-circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #007bff;
+        line-height: 30px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        cursor: pointer; /* Added cursor pointer */
+      }
+  
+      .step-line {
+        position: absolute;
+        top: 16px;
+        left: 50px;
+        width: calc(100% - 100px);
+        height: 2px;
+        background-color: #007bff;
+        z-index: -1;
+      }
+      
+      #multi-step-form{
+          overflow-x: hidden;
+      }
+      .mx-special{
+        margin-left: 20%;
+      }
+
+/*movil*/
+/* CSS para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-navbar-img {
+        width: 100%;
+        flex-shrink: 0;
+        background: url('../img/navbar-responsive.png'), lightgray 50% / cover no-repeat;
+        height: 280px;
+    }
+
+    .bg-footer-img {
+        height: 1064px;
+    }
+    .row-separacion{
+        --bs-gutter-y:1rem;
+    }
+.p-personalizado{
+    padding-left: 20%;
+    padding-top: 13%;
+}
+.p-movil-boton{
+    padding-top: 10%;
+}
+.btn-movil span{
+display: none;
+}
+.btn-movil i{
+    display: inline-block;
+}
+}
