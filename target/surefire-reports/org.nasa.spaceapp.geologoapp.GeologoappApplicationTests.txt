@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.nasa.spaceapp.geologoapp.GeologoappApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.814 s - in org.nasa.spaceapp.geologoapp.GeologoappApplicationTests
