@@ -122,6 +122,9 @@
       #multi-step-form{
           overflow-x: hidden;
       }
+      .mx-special{
+        margin-left: 20%;
+      }
 
 /*movil*/
 /* CSS para dispositivos móviles */
